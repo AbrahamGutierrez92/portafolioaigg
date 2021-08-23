@@ -1,0 +1,21 @@
+#habilidades{
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    background: #080620;
+}
+.iconoCono{
+    font-size: 70px;
+}
+.titulohabilidad{
+    padding: 35px;
+}
+.tituloporcentaje{
+    color: white;
+}
+.porcentaje{
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}

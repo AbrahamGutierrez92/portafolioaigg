@@ -1,0 +1,32 @@
+.container{
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        background-position: unset;
+    }
+    .nombre{
+        font-size: 35px;
+    }
+    .profesion{
+        font-size: 30px;
+    }
+    .descrip{
+        font-size: 18px;
+    }
+
+    /*css Footer*/
+    .descripCont{
+        padding-top: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    .descripcion{
+        padding: 0;
+        font-size: 15px;
+    }
+  }
+
