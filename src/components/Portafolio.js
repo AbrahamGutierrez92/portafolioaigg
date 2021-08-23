@@ -39,7 +39,7 @@ export default function Portafolio(){
                       <img className="card-img-top" src={Tienda}/>
                       <h3>Tienda</h3>
                       <p>Wordpress</p>
-                      <a href="#" className="btn" target="_blank">En Mantenimineto</a>
+                      <a href="#" className="btn" target="_blank">En Mantenimiento</a>
                     </div>
 
                     <div className=" col-md-3 proy">
