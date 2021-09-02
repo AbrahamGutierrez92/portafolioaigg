@@ -16,7 +16,7 @@ export default function Footer(){
               <div className="row">
                   
                   <div className="col">
-                      <h3 className="titulosociales text-primary">Redes Sociales</h3>
+                      <h3 className="titulosociales text-primary">Social Media</h3>
                     <div className="iconosFooter">
                         <a href="https://www.linkedin.com/in/abraham-gutierrez-168586a5/" target="_blank"><FaLinkedin/></a>
 

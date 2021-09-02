@@ -16,7 +16,7 @@ export default function Portafolio(){
            <div className="porta container text-center">
                <div className="row tituloportafolio">
                     <h1 className="text-primary font-weight-bold">Portafolio</h1>
-                    <p>Proyectos</p>
+                    <p>Projects</p>
                 </div>
 
                 <div className="row mt-4">
@@ -25,28 +25,28 @@ export default function Portafolio(){
                      <img className="card-img-top" src={Covid}/>
                      <h3>Covid- 19 | Rest API</h3>
                       <p>React, Material-UI, API</p>
-                      <a href="https://abrahamgutierrez92.github.io/Covid-19-Rest-Apis/" className="btn" target="_blank">Vista Previa</a>
+                      <a href="https://abrahamgutierrez92.github.io/Covid-19-Rest-Apis/" className="btn" target="_blank">Preview</a>
                     </div>  
 
                     <div className=" col-md-3 proy">
                      <img className="card-img-top" src={PortafolioAleja}/>
                      <h3>Portafolio AdDq</h3>
                       <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/PortafolioAlendraDuque" className="btn" target="_blank">Vista Previa</a>
+                      <a href="https://abrahamgutierrez92.github.io/PortafolioAlendraDuque" className="btn" target="_blank">Preview</a>
                     </div>
 
                     <div className=" col-md-3 proy">
                       <img className="card-img-top" src={Tienda}/>
-                      <h3>Tienda</h3>
+                      <h3>Shop</h3>
                       <p>Wordpress</p>
-                      <a href="#" className="btn" target="_blank">En Mantenimiento</a>
+                      <a href="#" className="btn" target="_blank">In Maintenance</a>
                     </div>
 
                     <div className=" col-md-3 proy">
                      <img className="card-img-top" src={CocaCola}/>
                      <h3>LoadingPages</h3>
                       <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/LoadingPages-CocaCola/" className="btn" target="_blank">Vista Previa</a>
+                      <a href="https://abrahamgutierrez92.github.io/LoadingPages-CocaCola/" className="btn" target="_blank">Preview</a>
                     </div>
 
                     
@@ -60,14 +60,14 @@ export default function Portafolio(){
                       <img className="card-img-top" src={Ecomerce}/>
                       <h3>Ecommerce</h3>
                       <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/eCommerce/" className="btn" target="_blank">Vista Previa</a>
+                      <a href="https://abrahamgutierrez92.github.io/eCommerce/" className="btn" target="_blank">Preview</a>
                     </div>
 
                     <div className=" col-md-3 proy">
                      <img className="card-img-top" src={Restarurante1}/>
                      <h3>Restaurante</h3>
                       <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/Restaurante1" className="btn" target="_blank">Vista Previa</a>
+                      <a href="https://abrahamgutierrez92.github.io/Restaurante1" className="btn" target="_blank">Preview</a>
                     </div>
 
                     <div className=" col-md-3 proy">

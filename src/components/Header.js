@@ -26,8 +26,8 @@ export default function Header(){
                         
                         </div>
                        <h2 className="nombre">Abraham Gutierrez</h2>
-                       <h3 className="profesion">Ing Sistemas</h3>
-                       <p className="descrip">Desarrollador web, Informatica IT</p>
+                       <h3 className="profesion">Systems Engineer</h3>
+                       <p className="descrip">Web Developer</p>
                     </div>
                  </div>
 

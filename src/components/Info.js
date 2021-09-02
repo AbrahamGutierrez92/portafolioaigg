@@ -8,7 +8,7 @@ export default function Info(){
      <div className="row text-white" id="info">
          <div className="container">
              <div className="row text-center titulo-Info">
-               <h1 className="text-primary font-weight-bold">Acerca de Mi</h1>
+               <h1 className="text-primary font-weight-bold">About me</h1>
              </div>
              <div className="row justify-content-center align-item-center">
                  <div className="col-md-6">
@@ -16,7 +16,7 @@ export default function Info(){
                  </div>
 
                  <div className="col-md-6 align-item-center">
-                    <p>Soy Abraham Gutierrez Ing en Sistema, con conocimientos en desarrollo web y habilidades en Informatica IT, La implementacion e innovacion tecnologicas ha transformado el comercio actual, es por esto que la inversion en nuevas tecnologia te habrira mayor oportunidad en el mercado en esta era Digital. </p>
+                    <p>I am Abraham Gutierrez Ing in System, with knowledge in web development and skills in Informatics IT, The implementation and technological innovation has transformed the current trade, that is why the investment in new technology will open you greater opportunity in the market in this Digital era. </p>
 
                     <h3><strong>Email:</strong></h3>
                     <p>gutierrezabraham2018@outlook.com</p>
@@ -24,7 +24,7 @@ export default function Info(){
                     <h3><strong>GitHub:</strong></h3>
                     <p>AbrahamGutierrez92</p>
                      <br/>
-                    <h3><strong>Pais:</strong></h3>
+                    <h3><strong>Country:</strong></h3>
                     <p>Managua - Nicaragua</p>
                     <br/>
                     <hr className="lineaInfo"/>

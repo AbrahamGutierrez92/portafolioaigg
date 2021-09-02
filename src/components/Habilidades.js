@@ -15,7 +15,7 @@ export default function Habilidades(){
         <div id="habilidades" className="habilidades">
             <div className="container">
                 <div className="row">
-                   <h1 className="titulohabilidad text-center text-primary">Habilidades</h1>
+                   <h1 className="titulohabilidad text-center text-primary">Skills</h1>
                 </div>
             <div className=" iconoCono row text-center d-flex justify-content-center">
                 <div className="col">
@@ -65,7 +65,7 @@ export default function Habilidades(){
                 <div className="col">
                   <span className="iconoCono"><FaPython/></span>
                   <h3 className="tituloporcentaje">Python</h3>
-                  <p className="porcentaje">Proceso...</p>
+                  <p className="porcentaje"></p>
                 </div>
 
             </div>

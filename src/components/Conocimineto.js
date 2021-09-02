@@ -11,7 +11,7 @@ export default function Conocimiento(){
   return(
       <div id="conocimiento" className="container conocimiento">
          <div className="row titulo-conocimiento">
-            <h1 className="text-center text-primary font-weight-bold">Conocimientos</h1>
+            <h1 className="text-center text-primary font-weight-bold">Knowledge</h1>
          </div>
 
         <div className="row">
@@ -19,8 +19,8 @@ export default function Conocimiento(){
       <div className="card">
         <div className="card-body">
           <span><FaLaptopCode/></span>
-          <h5 className="card-title">Desarrollo Web</h5>
-          <p className="card-text">En la actualidad el desarrollo y creación de sitios web se impone en el mundo como herramienta tecnológica para fortalecerse en el mercado, crear negocios.</p>
+          <h5 className="card-title">Web development</h5>
+          <p className="card-text">Currently the development and creation of websites is imposed in the world as a technological tool to strengthen in the market, create businesses.</p>
         </div>
       </div>
     </div>
@@ -29,8 +29,8 @@ export default function Conocimiento(){
       <div className="card">
         <div className="card-body">
           <span><FaShieldAlt/></span>
-          <h5 class="card-title">Seguridad Informatica</h5>
-          <p className="card-text">Seguridad informática es la forma en que tu organización trabaja para reducir el riesgo de un ataque cibernético, y su efecto potencial en tu empresa, protegiendo los dispositivos y servicios que utilizas.</p>
+          <h5 class="card-title">Computer Security</h5>
+          <p className="card-text">Computer security is how your organization works to reduce the risk of a cyber attack, and its potential effect on your business, protecting the devices and services you use.</p>
         </div>
       </div>
     </div>
@@ -39,8 +39,8 @@ export default function Conocimiento(){
       <div className="card">
         <div className="card-body">
           <span><FaRegWindowRestore/></span>
-          <h5 class="card-title">Informatica IT</h5>
-          <p className="card-text">Gestión de servicios de tecnologías de la información se ocupa de todas aquellas tareas que tienen que ver con integrar los servicios de IT..</p>
+          <h5 class="card-title">Informatica-IT</h5>
+          <p className="card-text">Information technology service management deals with all those tasks that have to do with integrating IT services.</p>
         </div>
       </div>
     </div>
