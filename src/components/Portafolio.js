@@ -1,86 +1,100 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Portafolio.css";
-import PortafolioAleja from "./img/PortafolioAlejandraDuque.png";
-import Tienda from "./img/Tienda1.png";
-import CocaCola from "./img/LoadingCoca-Cola.png";
-import Ecomerce from "./img/Eccomerce.png";
-import Restarurante1 from "./img/Restaurante1.png";
-import Covid from "./img/Covid.png";
+import Covid from "./img/Covid.png"
+import PortaAle from "./img/PortafolioAlejandraDuque.png";
+import TiendaWord from "./img/Tienda1.png";
+import TiendaRopa from "./img/Eccomerce.png";
 
-export default function Portafolio(){
-    return (
-        <>
-         <div className="portafolio py-4" id="row-portafolio">
-           <div className="porta container text-center">
-               <div className="row tituloportafolio">
-                    <h1 className="text-primary font-weight-bold">Portafolio</h1>
-                    <p>Projects</p>
-                </div>
-
-                <div className="row mt-4">
-
-                   <div className=" col-md-3 proy">
-                     <img className="card-img-top" src={Covid}/>
-                     <h3>Covid- 19 | Rest API</h3>
-                      <p>React, Material-UI, API</p>
-                      <a href="https://abrahamgutierrez92.github.io/Covid-19-Rest-Apis/" className="btn" target="_blank">Preview</a>
-                    </div>  
-
-                    <div className=" col-md-3 proy">
-                     <img className="card-img-top" src={PortafolioAleja}/>
-                     <h3>Portafolio AdDq</h3>
-                      <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/PortafolioAlendraDuque" className="btn" target="_blank">Preview</a>
+function Portafolio(){
+    return(
+        <div className="portafolio">
+           <h2>Portafolio</h2>
+           <h3>Project</h3>
+           <div className="cajaportafolio">
+               <div className="boxPorta">
+                  <div className="cajaImg">
+                    <img src={Covid} />
+                  </div>
+                  <h4>Covid tracking website</h4>
+                  <p>COVID 19 measurement website</p>
+                  <div className="componentes">
+                    <div>
+                        React
                     </div>
-
-                    <div className=" col-md-3 proy">
-                      <img className="card-img-top" src={Tienda}/>
-                      <h3>Shop</h3>
-                      <p>Wordpress</p>
-                      <a href="#" className="btn" target="_blank">In Maintenance</a>
+                    <div>
+                        APIs
                     </div>
+                    <a href="https://abrahamgutierrez92.github.io/Covid-19-Rest-Apis/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
 
-                    <div className=" col-md-3 proy">
-                     <img className="card-img-top" src={CocaCola}/>
-                     <h3>LoadingPages</h3>
-                      <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/LoadingPages-CocaCola/" className="btn" target="_blank">Preview</a>
+               <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={PortaAle} />
+                  </div>
+                  <h4>Portafolio</h4>
+                  <p>Personal website</p>
+                  <div className="componentes">
+                    <div>
+                        HTML
                     </div>
-
-                    
-
-                </div>
-
-
-                <div className="row mt-4">
-
-                   <div className=" col-md-3 proy">
-                      <img className="card-img-top" src={Ecomerce}/>
-                      <h3>Ecommerce</h3>
-                      <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/eCommerce/" className="btn" target="_blank">Preview</a>
+                    <div>
+                        CSS
                     </div>
-
-                    <div className=" col-md-3 proy">
-                     <img className="card-img-top" src={Restarurante1}/>
-                     <h3>Restaurante</h3>
-                      <p>HTML, CSS, JS</p>
-                      <a href="https://abrahamgutierrez92.github.io/Restaurante1" className="btn" target="_blank">Preview</a>
+                    <div>
+                        JS
                     </div>
+                    <a href="https://abrahamgutierrez92.github.io/PortafolioAlendraDuque/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
 
-                    <div className=" col-md-3 proy">
-                     
+               <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={TiendaWord} />
+                  </div>
+                  <h4>Accessories store</h4>
+                  <p>E-commerce</p>
+                  <div className="componentes">
+                    <div>
+                        WordPress
                     </div>
-
-                    <div className=" col-md-3 proy">
-                     
+                    <div>
+                        PHP
                     </div>
-                </div>
+                    <a href="#" target="_blank">
+                    Updating
+                    </a>
+                  </div>
+               </div>
 
+               <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={TiendaRopa} />
+                  </div>
+                  <h4>Clothing store</h4>
+                  <p>E-commerce</p>
+                  <div className="componentes">
+                    <div>
+                        HTML
+                    </div>
+                    <div>
+                        CSS
+                    </div>
+                    <div>
+                        UI
+                    </div>
+                    <a href="https://abrahamgutierrez92.github.io/eCommerce/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
            </div>
-         </div>
-        </>
+        </div>
     )
 }
+
+export default Portafolio;

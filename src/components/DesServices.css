@@ -1,0 +1,60 @@
+.desService{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.desService .descripcionServivio{
+    width: 70%;
+    margin: auto;
+}
+.desService .descripcionServivio p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.desService .desBox{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-gap: 25px;
+    gap: 25px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 40px;
+    padding: 15px;
+}
+.desService .desBox div{
+    width: 100%;
+    
+}
+.desService .desBox div img{
+    width: 100%;
+}
+.desService .desBox h2{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.desService .desBox p{
+    height: 140px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+.desService .desBox .btnDesSER{
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background: var(--primary);
+    margin: auto;
+}
+.desService .desBox .btnDesSER:hover{
+    background: transparent;
+    border: 1px solid var(--primary);
+}
+
+@media screen and (max-width: 960px){
+    .desService .desBox{
+        grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    }
+}

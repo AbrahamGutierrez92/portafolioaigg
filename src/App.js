@@ -1,30 +1,52 @@
-import Navbar from "./components/NavBar";
-import Header from "./components/Header";
-import Portafolio  from "./components/Portafolio";
-import Info from "./components/Info";
-import Conocimineto from "./components/Conocimineto";
-import Habilidades from "./components/Habilidades";
-import Footer from "./components/Footer";
-/*import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";*/
-
+import React from "react";
 import './App.css';
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Home from "./components/pages/Home";
+import Bloc from "./components/pages/Bloc";
+import Services from "./components/pages/Services";
+import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+
+import Error from "./components/Error404";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-       <Header/>
-       <Portafolio/>
-       <Info/>  
-       <Conocimineto/>
-       <Habilidades/>
-       <Footer/>
-    </div>
+    <Router>
+        <Navbar/>
+         <Switch>
+           <Route exact path='/'>
+            <Home/>
+           </Route>
+
+           <Route path='/bloc'>
+            <Bloc/>
+           </Route>
+
+           <Route path='/services'>
+            <Services/>
+           </Route>
+
+           <Route path='/contacto'>
+            <Contact/>
+           </Route>
+
+           <Route path='/web'>
+            <Error/>
+           </Route>
+
+           <Route path='/webDesing'>
+           <Error/>
+           </Route>
+
+           <Route path='/it'>
+            <Error/>
+           </Route>
+           
+         </Switch>
+         <Footer/>
+      </Router>
   );
 }
-
 export default App;

@@ -1,0 +1,52 @@
+.held{
+    width: 100%;
+    margin-bottom: 130px;
+}
+.held h1{
+    text-align: center;
+    color: var(--primary);
+    font-size: 50px;
+}
+.held .containerHeld{
+    display: grid;
+    grid-gap: 25px;
+    gap: 25px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 40px;
+    padding: 15px;
+}
+.held .containerHeld img{
+    width: 100%;
+}
+.held .containerHeld .cajaHeld{
+    width: 100%;
+}
+.held .containerHeld .cajaHeld div{
+    width: 95%;
+    margin-bottom: 25px;
+}
+.held .containerHeld .cajaHeld div:hover{
+    background-color: #333636;
+    transition: initial 1s step-end;
+    border-radius: 10px;
+}
+.held .containerHeld .cajaHeld div:hover h2{
+    color: var(--primary);
+}
+.held .containerHeld .cajaHeld div h2{
+    color: white;
+    font-size: 30px;
+}
+.held .containerHeld .cajaHeld div p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 960px){
+    .held .containerHeld{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+       
+    }
+}

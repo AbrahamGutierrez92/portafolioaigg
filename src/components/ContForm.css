@@ -1,0 +1,43 @@
+.contForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contForm .boxForm{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--primary) 0px 40px 58px -16px,
+    var(--primary) 0px 30px 22px -10px;
+}
+.contForm .boxForm form{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contForm .boxForm form label{
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+.contForm .boxForm form input{
+    width: 450px;
+    padding: 10px;
+    
+    border: none;
+}
+.contForm .boxForm form .sms{
+    width: 450px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.contForm .boxForm form .btnForm{
+    color: white;
+    background: var(--primary);
+    cursor: pointer;
+}

@@ -1,35 +1,12 @@
 .footer{
-    height: 100%;
-    background: #212529;
-}
-form{
-    padding: 25px;
-}
-.titulosociales{
-    text-align: center;
-    color: white !important;
-    padding: 30px;
-}
-a:hover{
-    color: white;
-}
-.iconosFooter{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.iconosFooter a{
-    font-size: 35px;
-}
-.descripcion{
-    padding: 35px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-.boton{
+    width: 100%;
+    height: 250px;
+    background: #232530;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer h3{
+    text-align: center;
+    color: white;
 }

@@ -1,0 +1,15 @@
+.mainBloc{
+  width: 100%;
+  height: 400px;
+  background-image: url("./img/banner2.png");
+  background-position: center;
+  background-size:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBloc h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}

@@ -1,0 +1,23 @@
+.mainDesBloc{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDesBloc div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainDesBloc div h2{
+    font-size: 45px;
+    color: white;
+}
+.mainDesBloc div h3{
+    font-size: 40px;
+    color: white;
+}
