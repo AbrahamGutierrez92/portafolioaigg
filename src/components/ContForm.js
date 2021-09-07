@@ -27,7 +27,7 @@ function ContForm(){
               <input type="email" name="user_email" />
               <label>Message</label>
               <textarea className="sms" name="message" placeholder="Writes"/>
-              <input className="btnForm" type="submit" value="Send" />
+              <button className="btnForm" type="submit">Send </button>
            </form>
         </div>
       </div>
