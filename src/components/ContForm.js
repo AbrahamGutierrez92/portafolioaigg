@@ -5,7 +5,7 @@ import emailjs from "emailjs-com";
 function ContForm(){
 
   function sendEmail(e) {
-    
+    e.preventDefault();
 
     emailjs.sendForm('service_proa3dh', 'template_qeiyl8s', e.target, 'user_wTq25AsiDG3XqlrosX68P')
       .then((result) => {
