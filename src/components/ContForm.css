@@ -1,5 +1,6 @@
 .contForm{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +11,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     box-shadow: var(--primary) 0px 40px 58px -16px,
     var(--primary) 0px 30px 22px -10px;
+}
+.contForm .boxForm h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: var(--primary);
+}
+.contForm .boxForm .contact-form{
+    width: 100%;
+    height: 100%;
 }
 .contForm .boxForm form{
     display: flex;
@@ -38,8 +50,14 @@
 }
 .contForm .boxForm form .btnForm{
     color: white;
+    font-size: 25px;
     background: var(--primary);
     cursor: pointer;
+}
+.contForm .boxForm form .btnForm:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid var(--primary);
 }
 @media screen and (max-width: 960px){
     .contForm .boxForm{
@@ -50,5 +68,18 @@
     }
     .contForm .boxForm form .sms{
         width: 200px;
+    }
+    .contForm .boxForm{
+        width: 100%;
+    }
+    .contForm .boxForm .contact-form{
+        width: 100%;
+    }
+    .contForm .boxForm form input{
+        width: 100%;
+        height: 100%;
+    }
+    .contForm .boxForm form .sms{
+        width: 100%;
     }
 }

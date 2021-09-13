@@ -1,0 +1,50 @@
+.serweb{
+    width: 100%;
+    padding: 25px;
+}
+.serweb .cajaWeb{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 25px;
+    gap: 25px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    box-shadow: var(--primary) 0px 40px 58px -16px,
+    var(--primary) 0px 30px 22px -10px;
+    border-radius: 10px;
+}
+
+.serweb .cajaWeb .boxWeb img{
+    width: 100%;
+    border-radius: 10px;
+}
+.serweb .cajaWeb .boxWeb .DescripWeb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.serweb .cajaWeb .boxWeb .DescripWeb h2{
+    text-align: center;
+    color: var(--primary);
+}
+.serweb .cajaWeb .boxWeb .DescripWeb p{
+    text-align: justify;
+    color: white;
+    padding: 15px;
+}
+.serweb .cajaWeb .boxWeb .DescripWeb ul{
+    list-style: none;
+}
+.serweb .cajaWeb .boxWeb .DescripWeb ul li{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+@media screen and (max-width: 960px){
+    .serweb .cajaWeb{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

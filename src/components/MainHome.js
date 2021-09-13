@@ -28,7 +28,7 @@ export default function MainHome(){
                 </p>
 
                 <Link to="/services" className="btn1">Services</Link>
-                <button className="btn1">Portafolio</button>
+                <a href="#portafolio" className="btn1">Portafolio</a>
               </div>
 
               <div className="box">

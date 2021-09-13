@@ -39,10 +39,11 @@
 .main .container .box p{
     color: white;
     font-size: 25px;
-    padding: 8px;
+    padding: 10px;
+    padding-bottom: 25px;
 }
 .btn1{
-    width: 150px;
+    width: 180px;
     text-decoration: none;
     padding: 8px 20px;
     margin-right: 8px;

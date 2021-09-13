@@ -64,12 +64,6 @@ export default function Navbar() {
                      Contact
                   </Link>
                </li>
-
-               <li className="nav-item">
-                  <Link to="/sing-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                  About me
-                  </Link>
-               </li>
             </ul>
             <Button/>
           </nav>

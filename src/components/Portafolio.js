@@ -7,7 +7,7 @@ import TiendaRopa from "./img/Eccomerce.png";
 
 function Portafolio(){
     return(
-        <div className="portafolio">
+        <div id="portafolio" className="portafolio">
            <h2>Portafolio</h2>
            <h3>Project</h3>
            <div className="cajaportafolio">

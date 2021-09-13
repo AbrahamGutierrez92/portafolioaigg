@@ -9,7 +9,8 @@ import {
 
 export default function About(){
     return(
-        <div className="about">
+     
+          <div id="about" className="about">
           <div className="aboutContainer">
             <h1 className="tituloAbout">About me</h1>
 

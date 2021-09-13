@@ -15,7 +15,7 @@ function DesServices(){
             <div className="desBox">
               <div className="boxImg">
                  <div>
-                   <img src={Servicio3}/>
+                   <img src={Servicio1}/>
                  </div>
                  <h2>Web Developer</h2>
                  <p>Currently the development and creation of websites is imposed in the world as a technological tool to strengthen in the market, create businesses.</p>

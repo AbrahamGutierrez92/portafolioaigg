@@ -7,6 +7,9 @@ import Bloc from "./components/pages/Bloc";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
+import SerIt from "./components/SerIt";
+import SerWeb from "./components/SerWeb";
+import SerDesing from "./components/SerDesing";
 
 import Error from "./components/Error404";
 
@@ -33,15 +36,15 @@ function App() {
            </Route>
 
            <Route path='/web'>
-            <Error/>
+           <SerWeb/>
            </Route>
 
            <Route path='/webDesing'>
-           <Error/>
+           <SerDesing/>
            </Route>
 
            <Route path='/it'>
-            <Error/>
+           <SerIt/>
            </Route>
            
          </Switch>
