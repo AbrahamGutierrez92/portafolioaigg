@@ -20,7 +20,7 @@ function Held(){
 
               <div>
                   <h2>2. SEO</h2>
-                  <p>You want a website. It must look great and you want it to work... All the time. Well, that's why I'm here! I help you by designing, building, and hosting a beautiful site that'll grow your business.</p>
+                  <p>Google ranking means more people see your fantastic blog post or revolutionary product. I ensure you have a leading ranking with best SEO practices. Give your content the audience it deserves!.</p>
               </div>
               
               <div>
