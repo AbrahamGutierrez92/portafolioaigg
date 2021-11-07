@@ -21,15 +21,15 @@ function ContForm(){
         <div className="boxForm">
         <h2>It will be a pleasure to assist you</h2>
            <form id="formularioC" className="contact-form" onSubmit={sendEmail}>
-              <input type="hidden" name="contact_number" />
+              {/*<input type="hidden" name="contact_number" />*/}
               <label>Name</label>
-              <input type="text" name="user_name" />
+              <input type="text" name="user_name" required/>
               <label>subject</label>
-              <input type="text" name="user_asunto" />
+              <input type="text" name="user_asunto" required/>
               <label>Email</label>
-              <input type="email" name="user_email" />
+              <input type="email" name="user_email" required/>
               <label>Message</label>
-              <textarea className="sms" name="message" placeholder="Writes"/>
+              <textarea className="sms" name="message" placeholder="Writes" required/>
               
               <input className="btnForm" type="submit" value="Send"/>
            </form>
