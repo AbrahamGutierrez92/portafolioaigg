@@ -5,6 +5,7 @@ import PortaAle from "./img/PortafolioAlejandraDuque.png";
 import TiendaWord from "./img/Tienda1.png";
 import TiendaRopa from "./img/Eccomerce.png";
 import StoreOnline from "./img/StoreOnline.png";
+import Generacionempreden from "./img/GeProyect.png";
 
 function Portafolio(){
     return(
@@ -12,6 +13,25 @@ function Portafolio(){
            <h2>Portafolio</h2>
            <h3>Project</h3>
            <div className="cajaportafolio">
+             
+           <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={Generacionempreden} />
+                  </div>
+                  <h4>Generacion Emprende</h4>
+                  <p>Class Online (Moodle)</p>
+                  <div className="componentes">
+                    <div>
+                        WordPress
+                    </div>
+                    <div>
+                        PHP
+                    </div>
+                    <a href="https://generacionemprende.net/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
 
            <div className="boxPorta">
                <div className="cajaImg">
@@ -37,7 +57,7 @@ function Portafolio(){
                     <img src={StoreOnline} />
                   </div>
                   <h4>Store</h4>
-                  <p>E-commerce</p>
+                  <p>DEMO E-commerce</p>
                   <div className="componentes">
                     <div>
                         React.js
@@ -46,7 +66,7 @@ function Portafolio(){
                         CSS
                     </div>
                     <a href="https://abrahamgutierrez92.github.io/StoreOnline/" target="_blank">
-                    Updating
+                    Preview
                     </a>
                   </div>
                </div>
@@ -78,7 +98,7 @@ function Portafolio(){
                     <img src={Covid} />
                   </div>
                   <h4>Covid tracking website</h4>
-                  <p>COVID 19 measurement website</p>
+                  <p>APPs COVID 19 measurement website</p>
                   <div className="componentes">
                     <div>
                         React.js
@@ -97,7 +117,7 @@ function Portafolio(){
                     <img src={TiendaRopa} />
                   </div>
                   <h4>Clothing store</h4>
-                  <p>E-commerce</p>
+                  <p>DEMO E-commerce IU</p>
                   <div className="componentes">
                     <div>
                         HTML
