@@ -3,9 +3,9 @@ import "./Portafolio.css";
 import Covid from "./img/Covid.png"
 import PortaAle from "./img/PortafolioAlejandraDuque.png";
 import TiendaWord from "./img/Tienda1.png";
-import TiendaRopa from "./img/Eccomerce.png";
 import StoreOnline from "./img/StoreOnline.png";
 import Generacionempreden from "./img/GeProyect.png";
+import Mntn from "./img/mntn.png";
 
 function Portafolio(){
     return(
@@ -94,6 +94,28 @@ function Portafolio(){
                </div>
 
                <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={Mntn} />
+                  </div>
+                  <h4>Mountains abd beyond</h4>
+                  <p>Adventures</p>
+                  <div className="componentes">
+                    <div>
+                        HTML
+                    </div>
+                    <div>
+                        CSS
+                    </div>
+                    <div>
+                        JS
+                    </div>
+                    <a href="https://abrahamgutierrez92.github.io/webMNTN/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
+
+               <div className="boxPorta">
                   <div className="cajaImg">
                     <img src={Covid} />
                   </div>
@@ -107,28 +129,6 @@ function Portafolio(){
                         APIs
                     </div>
                     <a href="https://abrahamgutierrez92.github.io/Covid-19-Rest-Apis/" target="_blank">
-                    Preview
-                    </a>
-                  </div>
-               </div>
-
-               <div className="boxPorta">
-               <div className="cajaImg">
-                    <img src={TiendaRopa} />
-                  </div>
-                  <h4>Clothing store</h4>
-                  <p>DEMO E-commerce IU</p>
-                  <div className="componentes">
-                    <div>
-                        HTML
-                    </div>
-                    <div>
-                        CSS
-                    </div>
-                    <div>
-                        JS
-                    </div>
-                    <a href="https://abrahamgutierrez92.github.io/eCommerce/" target="_blank">
                     Preview
                     </a>
                   </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import './MainHome.css';
-import imgBox from "./img/im1.png";
+import imgBox from "./img/logog.gif";
 import { 
     FaLinkedin, 
     FaGithub,
     FaInstagram 
 } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-
+//#171820 color de body
 export default function MainHome(){
     return(
         <>
