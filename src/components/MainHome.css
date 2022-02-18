@@ -21,7 +21,7 @@
     text-decoration: none;
     padding: 10px;
     font-size: 35px;
-    color: var(--primary);
+    color: var(--Amarillo);
     cursor: pointer;
 }
 .main .container .box .sociales a:hover{
@@ -33,14 +33,14 @@
     font-size: 40px;
 }
 .main .container .box h3{
-    color: var(--primary);
+    color: var(--celesteSec);
     font-size: 35px;
 }
 .main .container .box p{
     color: white;
     font-size: 25px;
-    padding: 10px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 .btn1{
     width: 180px;
@@ -53,7 +53,7 @@
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: var(--primary);
+    background: var(--Amarillo);
 }
 .btn:hover{
     padding: 6px 18px;

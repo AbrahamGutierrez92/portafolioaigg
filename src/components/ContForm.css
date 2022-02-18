@@ -4,6 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .contForm .boxForm{
     width: 70%;
@@ -19,7 +22,7 @@
     text-align: center;
     font-size: 30px;
     padding: 20px;
-    color: var(--primary);
+    color: var(--Amarillo);
 }
 .contForm .boxForm .contact-form{
     width: 100%;
@@ -27,7 +30,7 @@
 }
 .contForm .boxForm form{
     display: flex;
-    padding: 60px;
+    padding: 30px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -40,7 +43,7 @@
 .contForm .boxForm form input{
     width: 450px;
     padding: 10px;
-    
+    border-radius: 5px;
     border: none;
 }
 .contForm .boxForm form .sms{
@@ -51,7 +54,7 @@
 .contForm .boxForm form .btnForm{
     color: white;
     font-size: 25px;
-    background: var(--primary);
+    background: var(--Amarillo);
     cursor: pointer;
 }
 .contForm .boxForm form .btnForm:hover{

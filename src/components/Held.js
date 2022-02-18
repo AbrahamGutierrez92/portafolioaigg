@@ -1,6 +1,6 @@
 import React from "react";
 import "./Held.css";
-import Im from "./img/im.png";
+import Im from "./img/helpIcono.gif";
 
 function Held(){
     return(

@@ -33,25 +33,6 @@ function Portafolio(){
                   </div>
                </div>
 
-           <div className="boxPorta">
-               <div className="cajaImg">
-                    <img src={TiendaWord} />
-                  </div>
-                  <h4>Accessories store</h4>
-                  <p>E-commerce</p>
-                  <div className="componentes">
-                    <div>
-                        WordPress
-                    </div>
-                    <div>
-                        PHP
-                    </div>
-                    <a href="https://gutierrezabraham.com/" target="_blank">
-                    Updating
-                    </a>
-                  </div>
-               </div>
-
                <div className="boxPorta">
                   <div className="cajaImg">
                     <img src={StoreOnline} />
@@ -133,6 +114,8 @@ function Portafolio(){
                     </a>
                   </div>
                </div>
+
+              
 
            </div>
            

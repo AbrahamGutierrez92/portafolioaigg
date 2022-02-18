@@ -4,7 +4,7 @@
 }
 .held h1{
     text-align: center;
-    color: var(--primary);
+    color: var(--Amarillo);
     font-size: 50px;
 }
 .held .containerHeld{
@@ -16,7 +16,7 @@
     padding: 15px;
 }
 .held .containerHeld img{
-    width: 100%;
+    width: 90%;
 }
 .held .containerHeld .cajaHeld{
     width: 100%;
@@ -25,13 +25,9 @@
     width: 95%;
     margin-bottom: 25px;
 }
-.held .containerHeld .cajaHeld div:hover{
-    background-color: #333636;
-    transition: initial 1s step-end;
-    border-radius: 10px;
-}
+
 .held .containerHeld .cajaHeld div:hover h2{
-    color: var(--primary);
+    color: var(--Amarillo);
 }
 .held .containerHeld .cajaHeld div h2{
     color: white;

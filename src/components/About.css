@@ -7,7 +7,7 @@
 
 .aboutContainer .tituloAbout{
     text-align: center;
-    color: var(--primary);
+    color: var(--Amarillo);
     font-size: 50px;
 }
 
@@ -37,11 +37,11 @@
 }
 .descripcionContacto .socialContacto div a{
     text-decoration: none;
-    color: var(--primary);
+    color: var(--celesteSec);
     font-size: 20px;
 }
 .descripcionContacto .socialContacto div {
-    color: var(--primary);
+    color: var(--celesteSec);
     font-size: 20px;
 }
 

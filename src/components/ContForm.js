@@ -19,7 +19,9 @@ function ContForm(){
     return(
       <div className="contForm">    
         <div className="boxForm">
+          
         <h2>It will be a pleasure to assist you</h2>
+
            <form id="formularioC" className="contact-form" onSubmit={sendEmail}>
               {/*<input type="hidden" name="contact_number" />*/}
               <label>Name</label>

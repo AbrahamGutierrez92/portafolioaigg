@@ -1,6 +1,4 @@
-:root{
-    --primary: #1888ff;
-}
+
 .btn{
     padding: 8px 20px;
     border-radius: 4px;
@@ -9,7 +7,7 @@
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: var(--primary);
+    background: var(--Amarillo);
     text-decoration: none;
 }
 .btn:hover{

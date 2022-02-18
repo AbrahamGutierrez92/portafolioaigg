@@ -32,7 +32,7 @@
     width: 100%;
 }
 .desService .desBox h2{
-    color: white;
+    color: var(--celesteSec);
     font-size: 20px;
     padding: 10px;
 }
@@ -47,7 +47,7 @@
     text-decoration: none;
     color: white;
     padding: 10px 40px;
-    background: var(--primary);
+    background: var(--Amarillo);
     margin: auto;
 }
 .desService .desBox .btnDesSER:hover{

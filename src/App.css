@@ -4,3 +4,9 @@
     padding: 0;
     font-family: 'PT Sans', sans-serif;
 }
+
+:root{
+    --primary: #1888ff;
+    --Amarillo: #d8b90b;
+    --celesteSec: #10738b;
+}

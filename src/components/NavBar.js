@@ -46,11 +46,11 @@ export default function Navbar() {
                   </Link>
                </li>
 
-               <li className="nav-item">
+               {/*<li className="nav-item">
                   <Link to="/bloc" className="nav-links" onClick={closeMobileMenu}>
                       Bloc
                   </Link>
-               </li>
+               </li>*/}
 
                <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                   <Link to="/services" className="nav-links" onClick={closeMobileMenu}>

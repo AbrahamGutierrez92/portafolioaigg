@@ -7,7 +7,7 @@
 .portafolio h2{
     text-align: center;
     font-size: 50px;
-    color: var(--primary);
+    color: var(--Amarillo);
 }
 .portafolio h3{
    text-align: center;
@@ -79,7 +79,7 @@
     color: white;
     text-align: center;
     text-decoration: none;
-    background: var(--primary);
+    background: var(--Amarillo);
 }
 .portafolio .cajaportafolio .componentes a:hover{
     border: 0.1px solid var(--primary);
