@@ -2,10 +2,10 @@ import React from "react";
 import "./Portafolio.css";
 import Covid from "./img/Covid.png"
 import PortaAle from "./img/PortafolioAlejandraDuque.png";
-import TiendaWord from "./img/Tienda1.png";
 import StoreOnline from "./img/StoreOnline.png";
 import Generacionempreden from "./img/GeProyect.png";
 import Mntn from "./img/mntn.png";
+import djangoimg from "./img/django.png";
 
 function Portafolio(){
     return(
@@ -18,8 +18,8 @@ function Portafolio(){
                <div className="cajaImg">
                     <img src={Generacionempreden} />
                   </div>
-                  <h4>Generacion Emprende</h4>
-                  <p>Class Online (Moodle)</p>
+                  <h4>Generación Emprende</h4>
+                  <p>Class Online with (Moodle)</p>
                   <div className="componentes">
                     <div>
                         WordPress
@@ -34,21 +34,25 @@ function Portafolio(){
                </div>
 
                <div className="boxPorta">
-                  <div className="cajaImg">
-                    <img src={StoreOnline} />
+               <div className="cajaImg">
+                    <img src={djangoimg} />
                   </div>
-                  <h4>Store</h4>
-                  <p>DEMO E-commerce</p>
+                  <h4>Demo Restaurant</h4>
+                  <p>Online very soon</p>
                   <div className="componentes">
                     <div>
-                        React.js
+                        Django
                     </div>
                     <div>
-                        CSS
+                        Bootstrap
                     </div>
-                    <a href="https://abrahamgutierrez92.github.io/StoreOnline/" target="_blank">
+
+                    <div>
+                        JS
+                    </div>
+                    {/*<a href="#" target="_blank">
                     Preview
-                    </a>
+                    </a>*/}
                   </div>
                </div>
 
@@ -56,8 +60,8 @@ function Portafolio(){
                <div className="cajaImg">
                     <img src={PortaAle} />
                   </div>
-                  <h4>Portafolio</h4>
-                  <p>Personal website</p>
+                  <h4>Demo Portafolio</h4>
+                  <p>UI website</p>
                   <div className="componentes">
                     <div>
                         HTML
@@ -78,8 +82,8 @@ function Portafolio(){
                <div className="cajaImg">
                     <img src={Mntn} />
                   </div>
-                  <h4>Mountains abd beyond</h4>
-                  <p>Adventures</p>
+                  <h4>Mountains beyond</h4>
+                  <p>UI website</p>
                   <div className="componentes">
                     <div>
                         HTML
@@ -101,7 +105,7 @@ function Portafolio(){
                     <img src={Covid} />
                   </div>
                   <h4>Covid tracking website</h4>
-                  <p>APPs COVID 19 measurement website</p>
+                  <p>COVID 19 measurement (App)</p>
                   <div className="componentes">
                     <div>
                         React.js
@@ -115,8 +119,24 @@ function Portafolio(){
                   </div>
                </div>
 
-              
-
+               <div className="boxPorta">
+                  <div className="cajaImg">
+                    <img src={StoreOnline} />
+                  </div>
+                  <h4>Demo Ecommerce</h4>
+                  <p>UI website</p>
+                  <div className="componentes">
+                    <div>
+                        React.js
+                    </div>
+                    <div>
+                        CSS
+                    </div>
+                    <a href="https://abrahamgutierrez92.github.io/StoreOnline/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
            </div>
            
         </div>

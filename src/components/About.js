@@ -26,7 +26,7 @@ export default function About(){
                </div>
 
                <div>
-                   <FaVoicemail className="iconCorreo"/> gutierrezabraham2018@outlook.com
+                   gutierrezabraham2018@outlook.com
                </div>
 
                <div>
