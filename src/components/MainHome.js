@@ -17,7 +17,7 @@ export default function MainHome(){
                  <div className="sociales">
                   <a href="https://www.linkedin.com/in/abraham-gutierrez-168586a5/" target="_blank"> <FaLinkedin/></a>
                   <a href="https://github.com/AbrahamGutierrez92" target="_blank"> <FaGithub/></a>
-                  <a href="https://www.instagram.com/ab_aigg/" target="_blank"> <FaInstagram/></a>
+                  
                  </div>
                  <h2>Abraham Gutierrez</h2>
                  <h3>Systems Engineer</h3>

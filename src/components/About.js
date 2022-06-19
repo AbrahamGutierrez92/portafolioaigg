@@ -15,22 +15,22 @@ export default function About(){
             <h1 className="tituloAbout">About me</h1>
 
             <div className="boxdescripcion">
-              <p>I am Abraham Gutierrez, systems engineer, with knowledge in web development and skills in Informatics IT, The implementation and technological innovation has transformed the current trade, that is why the investment in new technology will open you greater opportunity in the market in this Digital era.</p>
+              <p>I am Abraham Gutiérrez, systems engineer, with knowledge in web development and skills in IT Informatics, The implementation and technological innovation has transformed the current trade, that is why the investment in technologies will open new opportunities in the digital market.</p>
             </div>
             
            
            <div className="descripcionContacto">          
              <div className="socialContacto">
                <div>
-                 <a href="https://www.linkedin.com/in/abraham-gutierrez-168586a5/" target="_blank"> <FaLinkedin/> Linkedin</a>
+                 <a href="https://www.linkedin.com/in/abraham-gutierrez-168586a5/" target="_blank"> Linkedin</a>
                </div>
 
                <div>
-                   gutierrezabraham2018@outlook.com
+                  gutierrezabraham2018@outlook.com
                </div>
 
                <div>
-                   <FaLocationArrow/> Managua - Nicaragua
+                Nicaragua
                </div>
              </div>
            </div>

@@ -6,6 +6,7 @@ import StoreOnline from "./img/StoreOnline.png";
 import Generacionempreden from "./img/GeProyect.png";
 import Mntn from "./img/mntn.png";
 import djangoimg from "./img/django.png";
+import BonikStore from "./img/ui-bonik.png";
 
 function Portafolio(){
     return(
@@ -13,6 +14,25 @@ function Portafolio(){
            <h2>Portafolio</h2>
            <h3>Project</h3>
            <div className="cajaportafolio">
+
+           <div className="boxPorta">
+               <div className="cajaImg">
+                    <img src={BonikStore} />
+                  </div>
+                  <h4>Bonik Store</h4>
+                  <p>UI E-commerce "In Development"</p>
+                  <div className="componentes">
+                    <div>
+                        React
+                    </div>
+                    <div>
+                        CSS
+                    </div>
+                    <a href="https://abrahamgutierrez92.github.io/Bonik-Store/" target="_blank">
+                    Preview
+                    </a>
+                  </div>
+               </div>
              
            <div className="boxPorta">
                <div className="cajaImg">
@@ -73,28 +93,6 @@ function Portafolio(){
                         JS
                     </div>
                     <a href="https://abrahamgutierrez92.github.io/PortafolioAlendraDuque/" target="_blank">
-                    Preview
-                    </a>
-                  </div>
-               </div>
-
-               <div className="boxPorta">
-               <div className="cajaImg">
-                    <img src={Mntn} />
-                  </div>
-                  <h4>Mountains beyond</h4>
-                  <p>UI website</p>
-                  <div className="componentes">
-                    <div>
-                        HTML
-                    </div>
-                    <div>
-                        CSS
-                    </div>
-                    <div>
-                        JS
-                    </div>
-                    <a href="https://abrahamgutierrez92.github.io/webMNTN/" target="_blank">
                     Preview
                     </a>
                   </div>
