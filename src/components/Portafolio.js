@@ -34,25 +34,6 @@ function Portafolio(){
                   </div>
                </div>
              
-           <div className="boxPorta">
-               <div className="cajaImg">
-                    <img src={Generacionempreden} />
-                  </div>
-                  <h4>Generación Emprende</h4>
-                  <p>Class Online with (Moodle)</p>
-                  <div className="componentes">
-                    <div>
-                        WordPress
-                    </div>
-                    <div>
-                        PHP
-                    </div>
-                    <a href="https://generacionemprende.net/" target="_blank">
-                    Preview
-                    </a>
-                  </div>
-               </div>
-
                <div className="boxPorta">
                <div className="cajaImg">
                     <img src={djangoimg} />
